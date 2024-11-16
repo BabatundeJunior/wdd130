@@ -29,3 +29,15 @@ footer {
     border-top: 1px solid #000;
     text-align: center;
 }
+nav {
+    background-color: steelblue;
+    padding: 10px;
+}
+nav a {
+    color: white;
+    padding: 10px;
+    display: block;
+}
+h1{
+    color: steelblue;
+}
