@@ -15,14 +15,15 @@
     font-family: var(--font-body);
     color: var(--text-color);
     background-color: var(--primary-color);
+    margin: 0 auto; 
   }  
   header {
     display: grid;
-    grid-template-columns:  2fr  1fr;
+    grid-template-columns: 2fr 1fr;
     justify-content: space-between;
     align-items: center;
     background-color: var(--accent1-color);
-  }  
+  } 
   .logo {
     width: 100px;
     margin-right: auto;
@@ -83,12 +84,7 @@
     height: 100px;
     text-align: center;
   }  
-  section{
-    padding: 20px;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-  }
+
   section h2 {
     font-family: var(--font-heading);
     font-size: 2rem;
@@ -97,6 +93,11 @@
     padding: 20px;
   }  
 
+  .history {
+    padding: 20px;
+    justify-content: center;
+
+  }
   .history-content {
     display: flex;
     align-items: center;
@@ -120,7 +121,11 @@
     height: auto;
   }
 
-
+  .adventure{
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+  }
   .adventure-gallery {
     display: flex;
     justify-content: center;
