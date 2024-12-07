@@ -89,12 +89,13 @@
     text-align: center;
   }  
 
-  section h2 {
+  section h2, h1 {
     font-family: var(--font-heading);
     font-size: 2rem;
     color: var(--accent2-color);
     text-align: center;
     padding: 20px;
+    margin-top: 0;
   }  
 
   .history {
@@ -157,10 +158,6 @@
     padding: 20px;
     border-radius: 5px;
     margin-bottom: 20px;
-  }
-
-  .company-info h1 {
-    margin-top: 0;
   }
 
   .info-container {
